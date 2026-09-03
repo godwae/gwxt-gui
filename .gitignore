@@ -1,0 +1,70 @@
+# ── 编译产物 ──────────────────────────────────────────────
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.exp
+*.ilk
+*.pdb
+gwxt-gui
+
+# qmake / make
+Makefile
+Makefile.Debug
+Makefile.Release
+*.app
+*.pro.user
+*.pro.user.*
+.qmake.stash
+object_script.*
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+build/
+
+# Qt 代码生成（moc / uic / rcc）
+moc_*.cpp
+moc_*.o
+ui_*.h
+qrc_*.cpp
+predefines.h
+moc_predefs.h
+
+# 构建输出 目录（本仓库根目录下的便携构建产物）
+debug/
+release/
+portable/
+bin/
+obj/
+dist/
+
+# 静态 Qt 构建中间产物
+qt-static/
+Qt5-*/
+
+# ── IDE / 编辑器 ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.directory
+
+# ── 临时 / 日志 / 调试 ───────────────────────────────────
+*.tmp
+*.temp
+*.log
+_debug_*.html
+crash*.dmp
+*.dmp
+
+# ── 操作系统 ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,28 @@
+#include <windows.h>
+
+// ── 版本信息 ──────────────────────────────────────────────
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+FILEFLAGSMASK   0x3fL
+FILEFLAGS       0x0L
+FILEOS          VOS_NT_WINDOWS32
+FILETYPE        VFT_APP
+FILESUBTYPE     VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"  // 中文简体, UTF-8
+        BEGIN
+            VALUE "CompanyName",      "题库下载器"
+            VALUE "FileDescription",  "技能等级评价题库下载器"
+            VALUE "FileVersion",      "1.0.0.0"
+            VALUE "ProductName",      "Skill Level Question Bank Downloader"
+            VALUE "ProductVersion",   "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 0x4B0
+    END
+END
