@@ -1,6 +1,6 @@
 # 技能等级评价题库下载器 (gwxt-gui)
 
-从技能等级评价系统批量下载题库的桌面 GUI 工具，C++ / Qt5。
+从技能等级评价系统批量下载题库的桌面 GUI 工具（C++ / Qt5）。
 
 ## 功能
 
@@ -44,5 +44,6 @@ Linux: `scripts/deploy.sh`。
 
 ## 声明
 
-本项目 **仅供内部交流与技术讨论**，不构成任何对外承诺或担保。
-If you find any issue, please contact me immediately — I will delete it at light speed.
+- 本项目 **仅供内部交流与技术讨论**，不构成任何对外承诺或担保。
+- 作者**不参与软件分发**：仓库不提供 Release / 预编译包，请自行下载源码编译。
+- If you find any issue, please contact me immediately — I will delete it at light speed.
